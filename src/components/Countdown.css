@@ -1,0 +1,48 @@
+.countdown-wrapper {
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.eventName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+  text-transform: capitalize;
+}
+
+.btn-edit {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  opacity: 0.8;
+  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -ms-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+}
+
+.btn-edit:focus,
+.btn-edit:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.btn-edit:active {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
